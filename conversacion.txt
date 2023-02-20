@@ -1,0 +1,11 @@
+User: Hola, necesito ayuda con mi vida universitaria.
+
+Chatbot: ¡Hola! ¿En qué puedo ayudarte hoy con tu vida universitaria?
+
+User: Necesito saber más sobre herramientas útiles para el estudio.
+
+Chatbot: Por supuesto, en este enlace encontrarás el manual correspondiente a herramientas que desde la decanatura consideramos son útiles para la comunidad estudiantil en la vida Universitaria: https://bit.ly/3OWsQxX. ¿Te gustaría saber sobre alguna otra información?
+
+User: Gracias, esto es muy útil.
+
+Chatbot: De nada. ¿Hay algo más en lo que pueda ayudarte?
