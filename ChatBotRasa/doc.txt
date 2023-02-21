@@ -1,0 +1,110 @@
+Se está utilizando Rasa con NLU(Lenguaje natural de entendimiento). Es un framework que utiliza IA y funciona como un SaaS. Se puede tener todo en un servidor local. Necesita de visual C++ Build para poder funcionar. 
+Se compone de RASA NLU, el cual es el encargado de interpretar los mensajes que le llegan de un usuario y RASA CORE el cual se encarga de predecir cuál es la mejor acción y así responder al usuario.
+Está compuesto de lo siguiente:
+	Intent: Es la intención de lo que quiere hacer el cliente. por ejemplo reservar un tiquete.
+	Entity: Es la extracción de lo importante en el mensaje, por ejemplo si dicen que quieren reserva en un X restaurante a las 10 pm, el entity sería el nombre y la hora.
+	Stories: Define la interacción entre el usuario y el bot ya predefinida.
+		Los stories tienen la siguiente nomenclatura.
+			## Nombre del archivo
+			* Entrada del usuario
+			- Acción por parte del bot
+	Actions: Las acciones permiten preguntar al usuario por más informacion para que todo sea más preciso.
+
+Se deben crear los siguientes archivos.
+	NLU training(nlu.md): Son Datos que permiten entrenar el bot para que funcione mejor. 
+	Stories: Son conversaciones entre el usuario y el bot.
+	Domain: Es el que contiene todo de lo que se compone el bot(intent, actions, entities, etc.)
+
+Ya no se utiliza run_evaluation, en vez de eso se debe hacer uso de este import:
+	from rasa_nlu.test import run_evaluation
+
+
+
+
+
+
+## intent: Define la intención.
+
+***Comandos a utilizar para crear el bot rápidamente
+--
+Crea un entorno virtual. hay que espeficar la versión de python
+conda create --name rasaBot python=3.7.3
+
+# To activate this environment, use
+#
+#     $ conda activate rasaBot
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+conda info --envs //Muestra todos los enviortments
+
+Una vez se cree el entorno virtual se pasa a instalar Rasa y Rasa X
+	pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+
+
+Se instalan las dependencias de spay y los paquetes en español
+pip install rasa[spacy]
+//sm small, md: medium
+python -m spacy download es_core_news_sm
+python -m spacy download es_core_news_md
+
+//Estos son de inglés(opcionales)
+python -m spacy download en_core_web_md
+python -m spacy link en_core_web_md en
+
+//Se instala rasa con Tensorflow
+pip install rasa
+
+//En este punto ya está instalado todo. Para crear el proyecto basta con ejecutar
+rasa init --no-prompt //El parámetro no_prompt evita que se hagan preguntas.
+
+//Se debe configurar los intent y los stories. Una vez estén listos se procede a entrenar el bot.
+rasa train
+
+//Si todo el proceso es correcto, se puede proceder a correr el bot.
+rasa shell
+
+//Para salirse
+/stop
+
+Para crear un story es necesario actualizar también el archivo nlu.md y el archivo domain.yml. Poniendo los intent y las acciones a realizar. También es importante que cada acción lleve antepuesta la palabra utter_
+
+
+
+***********************Integración con otras aplicaciones(Facebook, Slack, Telegram.)
+El primer paso para realizar la integración es descargar y ejecutar ngRok.
+https://dashboard.ngrok.com/get-started
+Este programa nos permite realizar un tunel entre la web y nuestra máquina local, para que las api's tengan acceso a nuestro dispositivo.
+Basta con seguir el tutorial que aparece en la página.
+Para correrlo hay que setear el token personal que aparece en la página web una vez nos registramos.
+	$ ./ngrok authtoken 1Q6eHyI0d3A3er5R3qokE8qh6Tn_3AD9oMxkYWYMK91WYmM1n
+Después se procede a ejecutar el programa corriendo en el puerto que querramos.
+	$ ./ngrok http 5005
+Si todo sale correctamente. Aparecerá en la terminal un mensaje con nuestro nombre de usuario.
+http://localhost:4040/inspect/http //Consola de ngrok
+
+
+Para configurar las api's basta con modificar el archivo credentials.yml y poner los token y el nobmre de nuestras apps creadas en cada página.
+	Slack:
+		https://app.slack.com/client/TMUMESR3P/CMUMETVPF/details/info
+
+
+https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/
+https://rasa.com/docs/rasa/user-guide/connectors/telegram/
+https://rasa.com/docs/rasa/user-guide/connectors/facebook-messenger/
+
+
+https://6b7b6b0e.ngrok.io/webhooks/slack/webhook
+https://6b7b6b0e.ngrok.io/webhooks/facebook/webhook
+https://6b7b6b0e.ngrok.io/webhooks/telegram/webhook
+
+
+
+	Telegram
+	t.me/clarencebot
+	Token:		930390880:AAF26zqGT8KmjtygdGHlGSwGVNtfaztHdgw
+
+
+
