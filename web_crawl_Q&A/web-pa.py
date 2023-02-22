@@ -26,7 +26,7 @@ from pdfminer.pdfpage import PDFPage
 import io
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 # Regex pattern to match a URL
 HTTP_URL_PATTERN = r'^http[s]*://.+'
