@@ -1,0 +1,49 @@
+Workflow:
+
+- Principal:
+	-Pregrados:
+		- Admisiones, Registro y Control Académico:
+			- Inscripciones, Admisión y MAtrícula de Estuantes Nuevos
+				- Inscripción
+				- Admisión
+				- Matrícula de Estudiantes Nuevos
+				- Articulación
+			- Solicitudes de Reingreso, Transferencia Interna y Externa
+				- Reingresos
+				- Transferencia Interna
+				- Transferencia Externa
+			- Matrícula de Estudiantes Antiguos, CAncelaciones, Perido de Prueba y Semestre de Transición
+				- Matrícula de Estudiantes Antiguos
+				- Cancelaciones
+				- Periodo de Prueba y Semestre de Transición
+			- Cursos Intersemestrales, Cursos Dirigidos y Suficiencias Académicas
+				- Cursos Intersemestrales
+				- Cursos Dirigidos
+				- Suficiencias Acaémicas
+			- Graduaciones
+			- Expedición de Certificados
+			- Otras preguntas frecuentes:
+				- Atención al Ciudadano
+				- Calendario Académico
+				- Archivo de Historias Académicas
+				- Devoluciones de Dinero
+
+	- Posgrado
+		- Admisiones, Registro y Control Académico
+			- Inscrićión
+			- Admisión
+			- Reingresos
+			- Matrícula de Estudiantes Antiguos
+			- Cancelaciones
+			- Cursos Dirigidos
+			- Cursos de Extensión
+			- Pruebas de Extensión
+ 			- Graduaciones
+			- Expedición de Certificados
+			- Otras preguntas Frecuentes
+- Generales:
+	- Redes sociales
+	- Que es UTP?
+	- Facultad de Ingeniería
+	- Despedidad (Gracias)
+

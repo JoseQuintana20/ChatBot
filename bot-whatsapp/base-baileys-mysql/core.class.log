@@ -1,0 +1,152 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: 'C7571C1CAD044114323E2157D9477E82',
+    participant: undefined
+  },
+  messageTimestamp: 1677860388,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '77F1AFEE8FE0CE0864D0DD393809EDEF',
+    participant: undefined
+  },
+  messageTimestamp: 1677860425,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Dónde queda la UTP?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Dónde queda la UTP?',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '4D4C745ADCC60CE35553AE478AE1D200',
+    participant: undefined
+  },
+  messageTimestamp: 1677860448,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Cuántas facultades tiene la UTP?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuántas facultades tiene la UTP?',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '16D4D9507EA9F950199CB72BCDF5C79D',
+    participant: undefined
+  },
+  messageTimestamp: 1677860459,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Jum',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Jum',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: 'BD1E91D643E32121D454C22201283DEE',
+    participant: undefined
+  },
+  messageTimestamp: 1677860467,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Ah',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ah',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '0F5A357BC277A5E5C7339F68F66BF803',
+    participant: undefined
+  },
+  messageTimestamp: 1677860469,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Bueno',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Bueno',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: 'C3CE67E9EAB2881BC5E6704BB2DC4860',
+    participant: undefined
+  },
+  messageTimestamp: 1677860484,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Cuántos pregrados tienen la facultad de ingeniería?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuántos pregrados tienen la facultad de ingeniería?',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '82414A8D51143C5846FB2F5F5E2936C0',
+    participant: undefined
+  },
+  messageTimestamp: 1677860514,
+  pushName: 'MS',
+  message: Message {
+    conversation: 'Khe',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Khe',
+  from: '573002542168'
+}
