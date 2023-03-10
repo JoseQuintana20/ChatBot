@@ -1,0 +1,66 @@
+Workflow:
+
+- Saludo: 
+	* ¡Hola! Soy DaVinci, tu asistente virtual personal. Estoy listo para ayudarte 		con cualquier cosa que necesites.
+	* ¡Bienvenido a DaVinci! Soy tu compañero virtual, aquí para ayudarte con 			cualquier pregunta o inquietud que tengas.
+	* Hola! Soy DaVinci, un chat bot desarrollado para hacer tu vida más fácil. Estoy 		aquí para ayudarte con todo lo que necesites.
+	* ¡Saludos! Soy DaVinci, tu amigo virtual. Estoy aquí para responder tus 			preguntas y brindarte la ayuda que necesitas.
+Ubicación:
+	* La dirección de la Universidad Tecnológica de Pereira es:
+		Calle 13 # 122-135
+		Pereira, Risaralda
+		Colombia
+
+- Principal:
+	-Pregrados:
+		- Admisiones, Registro y Control Académico:
+			- Inscripciones, Admisión y MAtrícula de Estuantes Nuevos
+				- Inscripción
+				- Admisión
+				- Matrícula de Estudiantes Nuevos
+				- Articulación
+			- Solicitudes de Reingreso, Transferencia Interna y Externa
+				- Reingresos
+				- Transferencia Interna
+				- Transferencia Externa
+			- Matrícula de Estudiantes Antiguos, CAncelaciones, Perido de Prueba y Semestre de Transición
+				- Matrícula de Estudiantes Antiguos
+				- Cancelaciones
+				- Periodo de Prueba y Semestre de Transición
+			- Cursos Intersemestrales, Cursos Dirigidos y Suficiencias Académicas
+				- Cursos Intersemestrales
+				- Cursos Dirigidos
+				- Suficiencias Acaémicas
+			- Graduaciones
+			- Expedición de Certificados
+			- Otras preguntas frecuentes:
+				- Atención al Ciudadano
+				- Calendario Académico
+				- Archivo de Historias Académicas
+				- Devoluciones de Dinero
+
+	- Posgrado:
+		- Admisiones, Registro y Control Académico
+			- Inscripción
+			- Admisión
+			- Reingresos
+			- Matrícula de Estudiantes Antiguos
+			- Cancelaciones
+			- Cursos Dirigidos
+			- Cursos de Extensión
+			- Pruebas de Extensión
+ 			- Graduaciones
+			- Expedición de Certificados
+			- Otras preguntas Frecuentes
+- Generales:
+	- Redes sociales
+	- Que es UTP?
+	- Facultad de Ingeniería
+	- Despedidad (Gracias)
+
+
+Links:
+
+1. https://media.utp.edu.co/faqs/archivos/Preguntas%20Frecuentes2021.pdf
+
+2. https://media.utp.edu.co/archivos/Preguntas%20Frecuentes%20Posgrado%202021.pdf
