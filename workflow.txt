@@ -64,3 +64,97 @@ Links:
 1. https://media.utp.edu.co/faqs/archivos/Preguntas%20Frecuentes2021.pdf
 
 2. https://media.utp.edu.co/archivos/Preguntas%20Frecuentes%20Posgrado%202021.pdf
+
+
+Como aplicar la opción de *Atras* para volver a la instrucción anterior sin saltarlse la restringicón que debe estar declarada con anteioridad, en este código: 
+// ########################################################################
+// #                                FIN SISTEMAS                          #
+// ########################################################################
+
+const flowSistemasContac = addKeyword(['4', 'Contacto'])
+    .addAnswer('Contactanos en : ')
+    .addAnswer(
+        [
+            '👉 *1* - Sí, necesito ayuda en otro tema',
+            '👉 *2* - No, gracias'
+        ]
+    )
+
+const flowSistemasUbi = addKeyword(['3', 'Ubicación', 'Ubi'])
+    .addAnswer('Ubicación de la oficina: ')
+
+const flowSistemasInfo = addKeyword(['2', 'Información General', 'Información'])
+    .addAnswer('INfo: ')
+    .addAnswer(
+        [
+            '👉 *1* - Sí, necesito ayuda en otro tema',
+            '👉 *2* - No, gracias'
+        ]
+    )
+
+const flowSistemasPresentacion = addKeyword(['1', 'Presentación del Programa', 'Presentación'])
+    .addAnswer(
+        [
+            '*PRESENTACIÓN DEL PROGRAMA*\n',
+            'Puedes encontrar información del programa en: https://ingenierias.utp.edu.co/ingenieria-en-sistemas/',
+        ]
+    )
+
+const flowSistemas = addKeyword(['1', 'Ingeniería de Sistemas', 'Ingeniería de Sistemas y Computación'])
+    .addAnswer(
+        [
+            '¿Podría indicarme qué información específica desea obtener?',
+            '👉 *1* - Presentación del Programa',
+            '👉 *2* - Información General',
+            '👉 *3* - Ubicación',
+            '👉 *4* - Contacto',
+            '👉 *5* - Atras'
+        ],
+        null,
+        null,
+        [flowSistemasPresentacion, flowSistemasInfo, flowSistemasUbi, flowSistemasContac]
+    )
+
+// ########################################################################
+// #                                INICIO SISTEMAS                       #
+// ########################################################################
+
+const flowPregados = addKeyword(['1', 'pregrados'])
+    .addAnswer(
+        [
+            'La Facultad ofrece programas de pregrado en:',
+            '👉 *1* - Ingeniería de Sistemas y Computación',
+            '👉 *2* - Ingeniería de Sistemas y Computación - Jornada especial',
+            '👉 *3* - Ingeniería Electrónica',
+            '👉 *4* - Ingeniería Eléctrica',
+            '👉 *5* - Ingeniería Física',
+            '👉 *6* - Tecnología en Desarrollo de Software',
+            '👉 *7* - Atras'
+        ],
+        null,
+        null,
+        [flowSistemas, flowSistemasJ, flowElectronica, flowFisica, flowElectrica, flowTecnologia]
+    )
+
+// ########################################################################
+// #                                INICIO PREGRADO                       #
+// ########################################################################
+
+const flowProgramas = addKeyword(['2', 'Programas', 'Programas académicos', 'carreras'])
+    .addAnswer(
+        [
+            '👉 *1* - Pregados',
+            '👉 *2* - Posgrados',
+            '👉 *3* - Atras'
+        ],
+        null,
+        null,
+        [flowPregados, flowPosgrados]  
+    )
+
+// ########################################################################
+// #                              INICIO PROGRMAS                         #
+// ########################################################################
+
+
+

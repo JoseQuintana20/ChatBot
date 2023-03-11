@@ -2,13 +2,63 @@
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: 'C7571C1CAD044114323E2157D9477E82',
+    id: '3EB0DF2B4FCECC647228',
     participant: undefined
   },
-  messageTimestamp: 1677860388,
+  messageTimestamp: 1678576890,
   pushName: 'MS',
   message: Message {
-    conversation: 'Hola',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D3A437ECE66DA837',
+    participant: undefined
+  },
+  messageTimestamp: 1678576897,
+  pushName: 'MS',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'gracias',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB063AC3125F94C57C2',
+    participant: undefined
+  },
+  messageTimestamp: 1678576901,
+  pushName: 'MS',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
@@ -21,132 +71,183 @@
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: '77F1AFEE8FE0CE0864D0DD393809EDEF',
+    id: '3EB07C18CA73632295D8',
     participant: undefined
   },
-  messageTimestamp: 1677860425,
+  messageTimestamp: 1678576905,
   pushName: 'MS',
   message: Message {
-    conversation: 'Dónde queda la UTP?',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Dónde queda la UTP?',
+  body: 'gracias',
   from: '573002542168'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: '4D4C745ADCC60CE35553AE478AE1D200',
+    id: '3EB0520A9FCB45DA7452',
     participant: undefined
   },
-  messageTimestamp: 1677860448,
+  messageTimestamp: 1678576908,
   pushName: 'MS',
   message: Message {
-    conversation: 'Cuántas facultades tiene la UTP?',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Cuántas facultades tiene la UTP?',
+  body: 'gracias',
   from: '573002542168'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: '16D4D9507EA9F950199CB72BCDF5C79D',
+    id: '3EB0ACBD65C36B5F3356',
     participant: undefined
   },
-  messageTimestamp: 1677860459,
+  messageTimestamp: 1678576913,
   pushName: 'MS',
   message: Message {
-    conversation: 'Jum',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '5',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Jum',
+  body: '5',
   from: '573002542168'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: 'BD1E91D643E32121D454C22201283DEE',
+    id: '3EB09EE9119D53FD4C01',
     participant: undefined
   },
-  messageTimestamp: 1677860467,
+  messageTimestamp: 1678576926,
   pushName: 'MS',
   message: Message {
-    conversation: 'Ah',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Ah',
+  body: 'gracias',
   from: '573002542168'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: '0F5A357BC277A5E5C7339F68F66BF803',
+    id: '3EB0FEC7DA9DE0D99B2A',
     participant: undefined
   },
-  messageTimestamp: 1677860469,
+  messageTimestamp: 1678576931,
   pushName: 'MS',
   message: Message {
-    conversation: 'Bueno',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Bueno',
+  body: 'hola',
   from: '573002542168'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: 'C3CE67E9EAB2881BC5E6704BB2DC4860',
+    id: '3EB0B291812D4873067D',
     participant: undefined
   },
-  messageTimestamp: 1677860484,
+  messageTimestamp: 1678576937,
   pushName: 'MS',
   message: Message {
-    conversation: 'Cuántos pregrados tienen la facultad de ingeniería?',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Cuántos pregrados tienen la facultad de ingeniería?',
+  body: '2',
   from: '573002542168'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573002542168@s.whatsapp.net',
     fromMe: false,
-    id: '82414A8D51143C5846FB2F5F5E2936C0',
+    id: '3EB09F6E08DE3B70A993',
     participant: undefined
   },
-  messageTimestamp: 1677860514,
+  messageTimestamp: 1678576940,
   pushName: 'MS',
   message: Message {
-    conversation: 'Khe',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Khe',
+  body: 'gracias',
+  from: '573002542168'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573002542168@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02B6B492C74640286',
+    participant: undefined
+  },
+  messageTimestamp: 1678576946,
+  pushName: 'MS',
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'gracias',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'gracias',
   from: '573002542168'
 }
