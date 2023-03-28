@@ -757,6 +757,70 @@ const flowProgramas = addKeyword(['2', 'Programas', 'Programas académicos', 'ca
 // ########################################################################
 // ########################################################################
 
+// ########################################################################
+// #                     INICIO BIENESTAR UNIVERSITARIO                   #
+// ########################################################################
+
+
+const flowPreguntas = addKeyword(['4', 'Preguntas Frecuentes', 'FAQ', 'ayuda'])
+    .addAnswer(
+        [
+            'Puedes encontrar algunas preguntas frecuentes que te ayuden a resolver tus dudas en el siguiente enlace:',
+            'https://www2.utp.edu.co/vicerrectoria/responsabilidad-social/preguntas-frecuentes.html',
+            '👉 1 - ¿Necesitas ayuda en algo más?',
+            '👉 2 - Gracias, eso es todo'
+        ]
+    )
+
+const flowPAI = addKeyword(['3', 'Programa de Acompañamiento Integral', 'PAI', 'apoyo emocional'])
+    .addAnswer(
+        [
+            'Si requieres de acompañamiento integral PAI, puedes ingresar al siguiente enlace:',
+            'https://www2.utp.edu.co/vicerrectoria/responsabilidad-social/pai.html',
+            '👉 1 - ¿Necesitas ayuda en algo más?',
+            '👉 2 - Gracias, eso es todo'
+        ]
+    )
+
+const flowApoyos = addKeyword(['2', 'Apoyos socioeconómicos', 'ayuda financiera'])
+    .addAnswer(
+        [
+            'Si te interesa pertenecer al programa de apoyos socioeconómicos, ingresa al siguiente link:',
+            'https://www2.utp.edu.co/vicerrectoria/responsabilidad-social/apoyos-socioeconomicos.html',
+            '👉 1 - ¿Necesitas ayuda en algo más?',
+            '👉 2 - Gracias, eso es todo'
+        ]
+    )
+const flowNoticias = addKeyword(['1', 'Portal de noticias', 'noticias', 'novedades'])
+    .addAnswer(
+        [
+            'Para enterarte de las últimas noticias, eventos y novedades, ingresa al siguiente link:',
+            'https://www2.utp.edu.co/vicerrectoria/responsabilidad-social/',
+            '👉 1 - ¿Necesitas ayuda en algo más?',
+            '👉 2 - Gracias, eso es todo'
+        ]
+    )
+
+
+const flowBienestar = addKeyword(['5', 'Bienestar', 'Vida universitaria'])
+    .addAnswer(
+        [
+            'La Vicerrectoría de Responsabilidad Social y Bienestar Universitario ofrece los siguientes servicios:',
+            '👉 1 - Portal de noticias VRSBU.',
+            '👉 2 - Apoyos socioeconómicos.',
+            '👉 3 - Programa Acompañamiento Integral PAI.',
+            '👉 4 - Preguntas Frecuentes VRSBU.',
+            '🔙 Hola - Regresar al menu principal'
+        ],
+        null,
+        null,
+        [flowNoticias, flowApoyos, flowPAI, flowPreguntas]
+    )
+
+// ########################################################################
+// #                      FIN BIENESTAR UNIVERSITARIO                     #
+// ########################################################################
+
 const flowFacultad = addKeyword(['1','Facultad', 'Facultad de Ingeniería', 'Cuéntame sobre la Facultad de Ingeniería']).addAnswer(
     [
         'La Facultad de Ingeniería es una de las más prestigiosas de la UTP y cuenta con un cuerpo docente altamente capacitado y una amplia experiencia en la industria.',
@@ -821,7 +885,7 @@ const flowPrincipal = addKeyword(['menu','hola', 'buenas', 'hi'])
         ],
         null,
         null,
-        [flowFacultad, flowProgramas, flowInv, flowRegla, flowRedes]
+        [flowFacultad, flowProgramas, flowInv, flowBienestar, flowRegla, flowRedes]
     )
     
 /*const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
