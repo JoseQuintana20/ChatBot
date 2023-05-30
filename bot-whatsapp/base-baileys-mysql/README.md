@@ -1,7 +1,7 @@
 ### CHATBOT Whatsapp (Baileys Provider)
 
 <p align="center">
-  <link rel="icon" type="image/jpeg" href="/logo.jpeg" q:head>
+  <img width="300" src="/logo.png">
 </p>
 
 
