@@ -4,6 +4,7 @@
   <img width="300" src="https://i.imgur.com/tBs6LZx.png">
 </p>
 
+<!-- 
 **Con esta librería, puedes construir flujos automatizados de conversación de manera agnóstica al proveedor de WhatsApp,** configurar respuestas automatizadas para preguntas frecuentes, recibir y responder mensajes de manera automatizada, y hacer un seguimiento de las interacciones con los clientes.  Además, puedes configurar fácilmente disparadores que te ayudaran a expandir las funcionalidades sin límites. **[Ver más informacion](https://bot-whatsapp.netlify.app/)**
 
 ```js
@@ -24,11 +25,21 @@ const main = async () => {
     })
 }
 ```
+-->
+**Para ejecutar la aplicación desde la línea de comando, sigue estos pasos:**
+
+1. Abre una terminal o línea de comandos en tu sistema operativo.
+2. Navega hasta la carpeta raíz de la aplicación usando el comando `cd` seguido de la ruta de la carpeta.
+3. Asegúrate de tener todas las dependencias de la aplicación instaladas ejecutando el comando `npm install`. Esto descargará y configurará todas las dependencias necesarias según se indique en el archivo `package.json`.
+4. Una vez que las dependencias estén instaladas, puedes ejecutar la aplicación usando el comando `npm start` o `node app.js`.
+Recuerda que debes ejecutar estos comandos en la terminal desde la ubicación correcta, es decir, la carpeta raíz de la aplicación donde se encuentra el archivo `package.json` y `app.js`. Asegúrate también de tener Node.js y npm correctamente instalados en tu sistema.
 
 ```
 npm install
 npm start
 ```
+
+Al ejecutar ``npm start`` o ``node app.js``, la aplicación se iniciará y estará lista para recibir y procesar las solicitudes correspondientes.
 
 ---
 ## Recursos
