@@ -17,7 +17,7 @@ const MYSQL_DB_NAME = 'bot'
 const MYSQL_DB_PORT = '3306'
  */
 
-/*const flowAdmision = addKeyword(['admisión', 'proceso de admisión', 'requisitos'])
+const flowAdmision = addKeyword(['3','admisión', 'proceso de admisión', 'requisitos'])
     .addAnswer(
         [
             'El proceso de admisión a la Facultad de Ingeniería de la Universidad Tecnológica de Pereira se lleva a cabo cada año.',
@@ -31,7 +31,7 @@ const MYSQL_DB_PORT = '3306'
         null,
         null,
         [flowAdmisionSistemas, flowAdmisionIndustrial, flowAdmisionElectronica, flowAdmisionAmbiental, flowAdmisionOtra]
-    )*/
+    )
 
 
 // ########################################################################
@@ -1143,7 +1143,7 @@ const flowPrincipal = addKeyword(['menu','hola', 'buenas', 'hi', 'Volver', 'Volv
         ],
         null,
         null,
-        [flowFacultad, flowProgramas, flowInv, flowBienestar, flowRegla, flowRedes]
+        [flowFacultad, flowProgramas, flowAdmision, flowInv, flowBienestar, flowRegla, flowRedes]
     )
 
 
