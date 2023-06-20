@@ -1,0 +1,350 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: 'A0EE4E1FD4D8B0558175AD224E7CAC8B',
+    participant: undefined
+  },
+  messageTimestamp: 1687229946,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '0EE49B610C5C95E4A29B991429BA9C87',
+    participant: undefined
+  },
+  messageTimestamp: 1687229948,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '4815C94CD8B4F9FA0C6478C90D52DFFF',
+    participant: undefined
+  },
+  messageTimestamp: 1687229952,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '084D203E7062CA9E44F4A1C6BFB30082',
+    participant: undefined
+  },
+  messageTimestamp: 1687229955,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '5791BDCA29C68879B75788E9707F5E77',
+    participant: undefined
+  },
+  messageTimestamp: 1687229958,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '70E451FEC8F46E7ECF05C9E582DA7D95',
+    participant: undefined
+  },
+  messageTimestamp: 1687229961,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: 'F7BDAE8E6187CC0AFB2A9016373A989E',
+    participant: undefined
+  },
+  messageTimestamp: 1687229964,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: 'ABC3C3A257094422633A0D4CEC3A64EB',
+    participant: undefined
+  },
+  messageTimestamp: 1687229967,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '44F8DF97243D8525A8754138E322E5EA',
+    participant: undefined
+  },
+  messageTimestamp: 1687229971,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '7',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '7',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '2EB04A0696F149956FBD57503282D3D8',
+    participant: undefined
+  },
+  messageTimestamp: 1687229975,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: 'E9E46E78A4E2933ED4B52D330EF306FD',
+    participant: undefined
+  },
+  messageTimestamp: 1687229979,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '6',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '6',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: '95B73EB206CA2FD1A499F570C26F1E04',
+    participant: undefined
+  },
+  messageTimestamp: 1687229982,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Hola',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: 'B25E46F294C8F3F413C30B4781EF5847',
+    participant: undefined
+  },
+  messageTimestamp: 1687229986,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '5',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '5',
+  from: '573122389016'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573122389016@s.whatsapp.net',
+    fromMe: false,
+    id: 'C82682AC4832B32D19401004958A21FA',
+    participant: undefined
+  },
+  messageTimestamp: 1687229990,
+  pushName: 'Jose Quintana',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '1',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573122389016'
+}
