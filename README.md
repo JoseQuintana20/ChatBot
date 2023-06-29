@@ -6,6 +6,7 @@
 
 Desarrollo de una aplicación con inteligencia artificial que pueda responder posibles preguntas frecuentes de la comunidad académica de la Facultad de Ingenierías de la Universidad Tecnológica de Pereira.
 
+
 ---
 ## Recursos
 - [📄 Documentación](https://github.com/JoseQuintana20/ChatBot)
